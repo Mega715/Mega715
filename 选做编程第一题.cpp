@@ -1,7 +1,7 @@
 ﻿#include<iostream> 
 using namespace std;
 int v[10000], p[5], W[25][30000];		//W表示价值=价格*重要程度，v表示价格，p表示重要度 
-int max(int x, int y) { return x > y ? x : y; }//自定义x与y最大值max函数
+int max(int x, int y) { return x > y ? x : y; }//定义x与y最大值max函数
 int main()
 {
 
